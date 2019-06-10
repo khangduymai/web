@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+    background-image: url('../assets/532571.jpg');
+    background-size: cover ;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110vw;
+    height: 150vh; 
+}
+
+.inner{
+    width: 30vw;
+    height: 120vh;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    background-color:rgba(255,255,255,0.72);
+    border-radius: 10px;
+}
+
+.title{
+    width: 30vw;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    background-color: rgba(6,234,41,0.38);
+    color: #ffffff;
+}
+
+.title h3{
+    padding-left: 8%;
+    font-size: 2em;
+}
+
+.content{
+	border-bottom: 1px solid white;
+    height: 50vh; /* 37 */
+}
+.txt{
+    background: #fffefe;
+    margin-top: 5%;
+    margin-left: 8%;
+    width: 25vw;
+}
+.txt1 {
+	background: #fffefe;
+    margin-top: 5%;
+    margin-left: 8%;
+    width: 25vw;
+}
+
+
+.content input{
+	width: 22vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 0;
+}
+
+.content input[placeholder]{
+	font-size: 1.3em;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.content2{
+    padding-bottom: 5%;
+}
+
+.content2 input{
+    width: 11vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 8%;
+    margin-top: 5%;
+    border: 0;
+}
+
+.content2 input[placeholder]{
+	font-size: 1.3em;
+    padding-left: 3%;
+    padding-right: 5%;
+}
+
+.radios{
+    background-color: rgba(255,255,255);
+}
+
+.radios h4{
+    display: inline-block;
+    margin-top: 2%;
+    padding-left: 10%;
+    padding-right: 4%;
+    color: #868585;
+}
+
+.radios label{
+    font-size: 1.3em;
+    color: #8e8a8a;
+}
+
+.radios input{
+    margin-left: 8%;
+    margin-right: 2%;
+}
+
+.ckbox{
+    padding-top:2%;
+    height: 10vh;
+    border-bottom: 1px solid white;
+}
+
+.ckbox input{
+    margin-left: 8%;
+}
+
+.ckbox span{
+    font-size: 1.1em;
+    margin-left: 3%;
+}
+
+.btnsub{
+    text-align: right;
+}
+
+.btnsub input{
+    margin-right: 10%;
+    padding: 2% 6% 2% 6%;
+    margin-top: 3%;
+    background-color: rgb(206,217,255);
+    border: 0;
+    color: black;
+}
+
+.btnsub input:hover{
+    background-color: #44ff44;
+}
+
+#span{
+    margin-left: 3vw;
+    color: red;
+    font-size: 1em;
+}

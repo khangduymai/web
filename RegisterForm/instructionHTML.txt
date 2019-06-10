@@ -1,0 +1,30 @@
+Install bootstrap4
+
+Using Node
+	
+	Download Node.js from website which will include npm
+	npm install bootstrap in the workind directory
+	npm install jquery in the working directory
+	install fontawsome:
+	npm install --save-dev @fortawesome/fontawesome-free
+	(Consider to install Popper.js)
+
+SAMPLE SETUP
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Register Page</title>
+        <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    </head>
+
+    <body>
+
+        <script src="/node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="/node_modules/popper.js/dist/popper.min.js"></script>
+        <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+
+</html>
