@@ -1,0 +1,10 @@
+.form-check{
+    margin-top: -10px;
+    margin-bottom: 15px;
+    color: aqua
+}
+
+.btn-primary.custom-btn{
+    margin-left: 170px;
+    margin-bottom: 15px;
+}

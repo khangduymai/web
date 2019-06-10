@@ -1,0 +1,26 @@
+
+
+.form-group input{
+    padding-left: 54px;
+}
+
+.form-group::before{
+    font-family: 'Font Awesome 5 Free';
+    content: "\f007";
+    position: absolute;
+    font-size: 22px;
+    left: 28px;
+    margin-top: 8px;
+
+}
+
+.form-group:last-of-type::before{
+    content: "\f023";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.forgot{
+    padding: 4px 0 25px;
+}
+

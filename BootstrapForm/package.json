@@ -1,0 +1,19 @@
+{
+  "name": "bootstrapform",
+  "version": "1.0.0",
+  "description": "Create Forms using bootstrap4",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Khang",
+  "license": "ISC"
+}

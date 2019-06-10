@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Register Page</title>
+
+         <!-- Latest compiled and minified CSS -->
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+         <!-- jQuery library -->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+ 
+         <!-- Popper JS -->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+ 
+         <!-- Latest compiled JavaScript -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ 
+         <!-- Fontawsome -->
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+ 
+         <!--style.css -->
+         <link rel="stylesheet" href="src/css/resetStyle.css">
+         <link rel="stylesheet" href="src/css/registerStyle.css">
+         
+
+    </head>
+
+    <body>
+
+       <div class="modal-dialog text-center">
+           <div class="col-sm-8 col-lg-9 main-section">
+               <div class="modal-content">
+                    <div class="col-12 user-img">
+                        <img src="src/assests/user.png" alt="User Picture">
+                    </div> <!--end user img-->
+                    <form class="col-12" action="src/inc/register.php" method="POST" enctype="application/x-www-form-urlencoded">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="firstNameInput" placeholder="Enter First Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="middleNameInput" placeholder="Enter Middle Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="lastNameInput" placeholder="Enter Last Name">
+                        </div>
+                        <div class="form-group">
+                                <input type="text" class="form-control" name="emailInput" placeholder="Enter Email">
+                        </div>
+                        <div class="form-group">
+                                <input type="text" class="form-control" name="phoneNumberInput" placeholder="Enter Phone Number">
+                        </div>  
+                        <div class="form-group">
+                                <input type="text" class="form-control" name="passwordInput" placeholder="Enter Password">
+                        </div> 
+                        <div class="form-group">
+                                <input type="text" class="form-control" name="confirmPasswordInput" placeholder="Enter Confirm Password">
+                        </div> 
+                    </form><!--end form-->
+
+                    <div class=" col-12 form-check">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" name="agreementTerm" value="">I Agree to Term and Service
+                        </label>
+                    </div>
+
+                    <button type="submit" name="submitRegister" class="btn btn-primary custom-btn"><i class="fas fa-sign-in-alt" id='sign-in-icon'></i>Register</button>
+                   
+               </div> <!--end modal content-->
+           </div> <!--end main section-->
+       </div> <!--end modal-dialog-->
+       
+        
+
+
+    </body>
+
+</html>
